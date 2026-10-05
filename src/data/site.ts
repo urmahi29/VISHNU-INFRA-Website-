@@ -250,7 +250,7 @@ export const projects: Project[] = [
   {
     name: "Varanasi–Kolkata Expressway Sector 6",
     category: "Expressway",
-    status: "Completed",
+    status: "Ongoing",
     image: projectEarthwork,
   },
   {
