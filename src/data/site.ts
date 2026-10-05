@@ -12,6 +12,11 @@ import projectBridge from "@/assets/project-bridge.jpg";
 import projectEarthwork from "@/assets/project-earthwork.jpg";
 import projectNight from "@/assets/project-night.jpg";
 import whyChoose from "@/assets/why-choose.jpg";
+import nagarjunaSagarDam from "@/assets/nagarjuna-sagar-dam.jpg";
+import varanasiKolkataSector3 from "@/assets/varanasi-kolkata-sector3.jpg";
+import varanasiKolkataSector6 from "@/assets/varanasi-kolkata-sector6.jpg";
+import bhanpuraCanal from "@/assets/bhanpura-canal.jpg";
+import delhiMumbaiExpressway from "@/assets/delhi-mumbai-expressway.jpg";
 
 export const images = {
   heroHighway,
@@ -22,6 +27,11 @@ export const images = {
   projectEarthwork,
   projectNight,
   whyChoose,
+  nagarjunaSagarDam,
+  varanasiKolkataSector3,
+  varanasiKolkataSector6,
+  bhanpuraCanal,
+  delhiMumbaiExpressway,
 };
 
 export const company = {
@@ -233,7 +243,7 @@ export const projects: Project[] = [
     name: "Delhi–Mumbai Expressway",
     category: "Expressway",
     status: "Completed",
-    image: projectExpressway,
+    image: delhiMumbaiExpressway,
   },
   {
     name: "Ganga Expressway",
@@ -245,26 +255,26 @@ export const projects: Project[] = [
     name: "Varanasi–Kolkata Expressway Sector 3",
     category: "Expressway",
     status: "Completed",
-    image: heroHighway,
+    image: varanasiKolkataSector3,
   },
   {
     name: "Varanasi–Kolkata Expressway Sector 6",
     category: "Expressway",
     status: "Ongoing",
-    image: projectEarthwork,
+    image: varanasiKolkataSector6,
   },
   {
     name: "Nagarjuna Sagar Dam Project",
     category: "Dam & Irrigation",
     location: "Hyderabad",
     status: "Completed",
-    image: projectBridge,
+    image: nagarjunaSagarDam,
   },
   {
     name: "Bhanpura Canal Project",
     category: "Canal & Irrigation",
     status: "Completed",
-    image: whyChoose,
+    image: bhanpuraCanal,
   },
   {
     name: "Hapur Bypass",
