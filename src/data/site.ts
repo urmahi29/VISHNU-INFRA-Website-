@@ -18,6 +18,7 @@ import varanasiKolkataSector6 from "@/assets/varanasi-kolkata-sector6.jpg";
 import bhanpuraCanal from "@/assets/bhanpura-canal.jpg";
 import bhanpuraCanalReal from "@/assets/bhanpura-canal-real.jpg";
 import delhiMumbaiExpressway from "@/assets/delhi-mumbai-expressway.jpg";
+import hapurBypass from "@/assets/hapur-bypass.jpg";
 
 export const images = {
   heroHighway,
@@ -281,7 +282,7 @@ export const projects: Project[] = [
     name: "Hapur Bypass",
     category: "Bypass Road",
     status: "Completed",
-    image: bhanpuraCanal,
+    image: hapurBypass,
   },
   {
     name: "Akkalkot Highway Project",
@@ -299,7 +300,7 @@ export const projects: Project[] = [
     name: "Hapur Bypass Highway Project",
     category: "Highway",
     status: "Ongoing",
-    image: bhanpuraCanal,
+    image: hapurBypass,
   },
 ];
 
