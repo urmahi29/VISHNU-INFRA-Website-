@@ -16,6 +16,7 @@ import nagarjunaSagarDam from "@/assets/nagarjuna-sagar-dam.jpg";
 import varanasiKolkataSector3 from "@/assets/varanasi-kolkata-sector3.jpg";
 import varanasiKolkataSector6 from "@/assets/varanasi-kolkata-sector6.jpg";
 import bhanpuraCanal from "@/assets/bhanpura-canal.jpg";
+import bhanpuraCanalReal from "@/assets/bhanpura-canal-real.jpg";
 import delhiMumbaiExpressway from "@/assets/delhi-mumbai-expressway.jpg";
 
 export const images = {
@@ -274,13 +275,13 @@ export const projects: Project[] = [
     name: "Bhanpura Canal Project",
     category: "Canal & Irrigation",
     status: "Completed",
-    image: bhanpuraCanal,
+    image: bhanpuraCanalReal,
   },
   {
     name: "Hapur Bypass",
     category: "Bypass Road",
     status: "Completed",
-    image: projectBridge,
+    image: bhanpuraCanal,
   },
   {
     name: "Akkalkot Highway Project",
@@ -298,7 +299,7 @@ export const projects: Project[] = [
     name: "Hapur Bypass Highway Project",
     category: "Highway",
     status: "Ongoing",
-    image: projectExpressway,
+    image: bhanpuraCanal,
   },
 ];
 
