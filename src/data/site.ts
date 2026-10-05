@@ -243,13 +243,13 @@ export const projects: Project[] = [
     name: "Delhi–Mumbai Expressway",
     category: "Expressway",
     status: "Completed",
-    image: delhiMumbaiExpressway,
+    image: projectExpressway,
   },
   {
     name: "Ganga Expressway",
     category: "Expressway",
     status: "Completed",
-    image: projectNight,
+    image: delhiMumbaiExpressway,
   },
   {
     name: "Varanasi–Kolkata Expressway Sector 3",
