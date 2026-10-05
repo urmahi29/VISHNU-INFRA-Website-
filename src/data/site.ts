@@ -296,12 +296,6 @@ export const projects: Project[] = [
     status: "Ongoing",
     image: aboutRoad,
   },
-  {
-    name: "Hapur Bypass Highway Project",
-    category: "Highway",
-    status: "Ongoing",
-    image: hapurBypass,
-  },
 ];
 
 /**
