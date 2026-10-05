@@ -1,0 +1,249 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * VISHNU INFRA design system.
+ * Industrial infrastructure palette: orange/golden, white, charcoal.
+ * All colors in oklch. Never hardcode colors in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "Barlow", system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-gold: var(--gold);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-foreground: var(--charcoal-foreground);
+  --color-steel: var(--steel);
+  --color-whatsapp: var(--whatsapp);
+}
+
+:root {
+  --radius: 0.125rem;
+
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.18 0.008 60);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.008 60);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.008 60);
+
+  --primary: oklch(0.68 0.185 47);
+  --primary-foreground: oklch(0.16 0.006 60);
+  --gold: oklch(0.79 0.15 78);
+
+  --secondary: oklch(0.96 0.006 75);
+  --secondary-foreground: oklch(0.22 0.008 60);
+  --muted: oklch(0.965 0.005 75);
+  --muted-foreground: oklch(0.5 0.012 65);
+  --accent: oklch(0.95 0.03 70);
+  --accent-foreground: oklch(0.25 0.05 55);
+
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(0.9 0.008 75);
+  --input: oklch(0.88 0.008 75);
+  --ring: oklch(0.68 0.185 47);
+
+  --charcoal: oklch(0.19 0.008 60);
+  --charcoal-foreground: oklch(0.97 0.004 75);
+  --steel: oklch(0.27 0.01 60);
+  --whatsapp: oklch(0.68 0.16 152);
+
+  --gradient-gold: linear-gradient(100deg, var(--primary), var(--gold));
+  --gradient-dark: linear-gradient(160deg, oklch(0.21 0.01 60), oklch(0.14 0.008 60));
+  --shadow-card: 0 1px 2px oklch(0.2 0.01 60 / 0.06), 0 12px 28px -18px oklch(0.2 0.01 60 / 0.35);
+  --shadow-lift: 0 18px 40px -20px oklch(0.35 0.09 50 / 0.45);
+}
+
+.dark {
+  --background: oklch(0.16 0.008 60);
+  --foreground: oklch(0.97 0.004 75);
+  --card: oklch(0.21 0.01 60);
+  --card-foreground: oklch(0.97 0.004 75);
+  --popover: oklch(0.21 0.01 60);
+  --popover-foreground: oklch(0.97 0.004 75);
+  --secondary: oklch(0.26 0.01 60);
+  --secondary-foreground: oklch(0.97 0.004 75);
+  --muted: oklch(0.26 0.01 60);
+  --muted-foreground: oklch(0.7 0.012 70);
+  --accent: oklch(0.3 0.04 55);
+  --accent-foreground: oklch(0.97 0.004 75);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-primary-foreground);
+  }
+}
+
+@utility container-x {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 1024px) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility section-y {
+  padding-block: 4.5rem;
+
+  @media (min-width: 1024px) {
+    padding-block: 6.5rem;
+  }
+}
+
+/* Small uppercase eyebrow label with rule */
+@utility eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+
+  &::before {
+    content: "";
+    width: 2rem;
+    height: 2px;
+    background: var(--color-primary);
+  }
+}
+
+@utility text-gradient-gold {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility surface-dark {
+  background-image: var(--gradient-dark);
+  color: var(--color-charcoal-foreground);
+}
+
+@utility card-industrial {
+  position: relative;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    border-color: color-mix(in oklab, var(--color-primary) 55%, transparent);
+    box-shadow: var(--shadow-lift);
+  }
+}
+
+@utility hover-underline {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background: var(--color-primary);
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+/* Scroll reveal */
+@utility reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@utility reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
