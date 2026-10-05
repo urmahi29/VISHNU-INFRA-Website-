@@ -21,6 +21,10 @@ import delhiMumbaiExpressway from "@/assets/delhi-mumbai-expressway.jpg";
 import hapurBypass from "@/assets/hapur-bypass.jpg";
 import akkalkotHighway from "@/assets/akkalkot-highway.jpg";
 import multaiHighway from "@/assets/multai-highway.jpg";
+import galleryRoad1 from "@/assets/gallery-road-1.jpg";
+import galleryRoad2 from "@/assets/gallery-road-2.jpg";
+import galleryRoad3 from "@/assets/gallery-road-3.jpg";
+import galleryRoad4 from "@/assets/gallery-road-4.jpg";
 
 export const images = {
   heroHighway,
@@ -38,6 +42,10 @@ export const images = {
   delhiMumbaiExpressway,
   akkalkotHighway,
   multaiHighway,
+  galleryRoad1,
+  galleryRoad2,
+  galleryRoad3,
+  galleryRoad4,
 };
 
 export const company = {
@@ -346,16 +354,28 @@ export const gallery: {
   placeholder: boolean;
 }[] = [
   {
-    src: heroHighway,
-    alt: "Highway construction site with paver and road roller at sunset",
+    src: galleryRoad1,
+    alt: "Yellow tipper trucks operating on road construction earthwork site",
     category: "Road Construction",
-    placeholder: true,
+    placeholder: false,
   },
   {
-    src: aboutRoad,
-    alt: "Concrete road being laid by a paver machine with site crew",
+    src: galleryRoad2,
+    alt: "Kobelco excavator loading yellow BharatBenz tipper trucks on highway site",
     category: "Road Construction",
-    placeholder: true,
+    placeholder: false,
+  },
+  {
+    src: galleryRoad3,
+    alt: "SANY SY240 excavator loading earth into TATA tipper truck",
+    category: "Road Construction",
+    placeholder: false,
+  },
+  {
+    src: galleryRoad4,
+    alt: "Kobelco SK380XD excavator digging earthwork trench alongside BharatBenz tipper",
+    category: "Road Construction",
+    placeholder: false,
   },
   {
     src: machineryFleet,
@@ -379,18 +399,6 @@ export const gallery: {
     src: projectExpressway,
     alt: "Aerial view of a multi-lane expressway with a bridge flyover",
     category: "Infrastructure Work",
-    placeholder: true,
-  },
-  {
-    src: projectNight,
-    alt: "Night-time asphalt paving work under floodlights",
-    category: "Project Sites",
-    placeholder: true,
-  },
-  {
-    src: whyChoose,
-    alt: "Road roller compacting fresh asphalt surface",
-    category: "Machinery",
     placeholder: true,
   },
 ];
