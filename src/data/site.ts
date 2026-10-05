@@ -242,10 +242,29 @@ export const projects: Project[] = [
     image: projectNight,
   },
   {
-    name: "Varanasi–Kolkata Expressway",
+    name: "Varanasi–Kolkata Expressway Sector 3",
     category: "Expressway",
     status: "Completed",
     image: heroHighway,
+  },
+  {
+    name: "Varanasi–Kolkata Expressway Sector 6",
+    category: "Expressway",
+    status: "Completed",
+    image: projectEarthwork,
+  },
+  {
+    name: "Nagarjuna Sagar Dam Project",
+    category: "Dam & Irrigation",
+    location: "Hyderabad",
+    status: "Completed",
+    image: projectBridge,
+  },
+  {
+    name: "Bhanpura Canal Project",
+    category: "Canal & Irrigation",
+    status: "Completed",
+    image: whyChoose,
   },
   {
     name: "Hapur Bypass",
