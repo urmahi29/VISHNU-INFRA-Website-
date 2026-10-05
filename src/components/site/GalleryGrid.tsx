@@ -83,11 +83,13 @@ export function GalleryGrid() {
         ))}
       </div>
 
-      <p className="mt-6 text-sm text-muted-foreground">
-        Images marked “Reference image” are illustrative construction photographs, not
-        photographs of Vishnu Infra project sites. They are placed so real site
-        photographs can replace them.
-      </p>
+      {gallery.some((g) => g.placeholder) ? (
+        <p className="mt-6 text-sm text-muted-foreground">
+          Images marked “Reference image” are illustrative construction photographs, not
+          photographs of Vishnu Infra project sites. They are placed so real site
+          photographs can replace them.
+        </p>
+      ) : null}
 
       {active ? (
         <div

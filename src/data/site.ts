@@ -25,6 +25,9 @@ import galleryRoad1 from "@/assets/gallery-road-1.jpg";
 import galleryRoad2 from "@/assets/gallery-road-2.jpg";
 import galleryRoad3 from "@/assets/gallery-road-3.jpg";
 import galleryRoad4 from "@/assets/gallery-road-4.jpg";
+import galleryMachinery1 from "@/assets/gallery-machinery-1.jpg";
+import galleryMachinery2 from "@/assets/gallery-machinery-2.jpg";
+import galleryMachinery3 from "@/assets/gallery-machinery-3.jpg";
 
 export const images = {
   heroHighway,
@@ -46,6 +49,9 @@ export const images = {
   galleryRoad2,
   galleryRoad3,
   galleryRoad4,
+  galleryMachinery1,
+  galleryMachinery2,
+  galleryMachinery3,
 };
 
 export const company = {
@@ -381,25 +387,43 @@ export const gallery: {
     src: machineryFleet,
     alt: "Fleet of excavators, grader, roller and tipper trucks at a construction yard",
     category: "Machinery",
-    placeholder: true,
+    placeholder: false,
+  },
+  {
+    src: galleryMachinery1,
+    alt: "BharatBenz heavy tipper truck with raised dump bed",
+    category: "Machinery",
+    placeholder: false,
+  },
+  {
+    src: galleryMachinery2,
+    alt: "BharatBenz tipper truck side profile on site",
+    category: "Machinery",
+    placeholder: false,
+  },
+  {
+    src: galleryMachinery3,
+    alt: "CASE 1107 NX-D soil compactor road roller working on site",
+    category: "Machinery",
+    placeholder: false,
   },
   {
     src: projectEarthwork,
     alt: "Excavator carrying out earthwork for a road embankment",
     category: "Project Sites",
-    placeholder: true,
+    placeholder: false,
   },
   {
     src: projectBridge,
     alt: "Bridge pier construction with reinforcement steel and crane",
     category: "Infrastructure Work",
-    placeholder: true,
+    placeholder: false,
   },
   {
     src: projectExpressway,
     alt: "Aerial view of a multi-lane expressway with a bridge flyover",
     category: "Infrastructure Work",
-    placeholder: true,
+    placeholder: false,
   },
 ];
 
