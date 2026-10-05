@@ -19,6 +19,7 @@ import bhanpuraCanal from "@/assets/bhanpura-canal.jpg";
 import bhanpuraCanalReal from "@/assets/bhanpura-canal-real.jpg";
 import delhiMumbaiExpressway from "@/assets/delhi-mumbai-expressway.jpg";
 import hapurBypass from "@/assets/hapur-bypass.jpg";
+import akkalkotHighway from "@/assets/akkalkot-highway.jpg";
 
 export const images = {
   heroHighway,
@@ -34,6 +35,7 @@ export const images = {
   varanasiKolkataSector6,
   bhanpuraCanal,
   delhiMumbaiExpressway,
+  akkalkotHighway,
 };
 
 export const company = {
@@ -282,7 +284,7 @@ export const projects: Project[] = [
     name: "Akkalkot Highway Project",
     category: "Highway",
     status: "Ongoing",
-    image: bhanpuraCanal,
+    image: akkalkotHighway,
   },
   {
     name: "Multai Highway Project",
