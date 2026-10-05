@@ -254,7 +254,7 @@ export const projects: Project[] = [
     image: delhiMumbaiExpressway,
   },
   {
-    name: "Varanasi–Kolkata Expressway Sector 3",
+    name: "Bhabhua Expressway Project",
     category: "Expressway",
     status: "Completed",
     image: varanasiKolkataSector3,
@@ -277,12 +277,6 @@ export const projects: Project[] = [
     category: "Canal & Irrigation",
     status: "Completed",
     image: bhanpuraCanalReal,
-  },
-  {
-    name: "Hapur Bypass",
-    category: "Bypass Road",
-    status: "Completed",
-    image: hapurBypass,
   },
   {
     name: "Akkalkot Highway Project",
