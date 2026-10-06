@@ -28,6 +28,8 @@ import galleryRoad4 from "@/assets/gallery-road-4.jpg";
 import galleryMachinery1 from "@/assets/gallery-machinery-1.jpg";
 import galleryMachinery2 from "@/assets/gallery-machinery-2.jpg";
 import galleryMachinery3 from "@/assets/gallery-machinery-3.jpg";
+import galleryInfra1 from "@/assets/gallery-infra-1.jpg";
+import galleryInfra2 from "@/assets/gallery-infra-2.jpg";
 
 export const images = {
   heroHighway,
@@ -52,6 +54,8 @@ export const images = {
   galleryMachinery1,
   galleryMachinery2,
   galleryMachinery3,
+  galleryInfra1,
+  galleryInfra2,
 };
 
 export const company = {
@@ -414,8 +418,14 @@ export const gallery: {
     placeholder: false,
   },
   {
-    src: projectBridge,
-    alt: "Bridge pier construction with reinforcement steel and crane",
+    src: galleryInfra1,
+    alt: "Aerial view of highway bypass overpass infrastructure",
+    category: "Infrastructure Work",
+    placeholder: false,
+  },
+  {
+    src: galleryInfra2,
+    alt: "Kobelco SK380XD excavator carrying out infrastructure earthwork trenching",
     category: "Infrastructure Work",
     placeholder: false,
   },
