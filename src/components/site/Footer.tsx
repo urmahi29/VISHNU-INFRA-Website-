@@ -132,9 +132,11 @@ export function Footer() {
       </div>
 
       <div className="border-t border-charcoal-foreground/10">
-        <div className="container-x flex flex-col gap-2 py-6 text-xs text-charcoal-foreground/55 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-x flex flex-col gap-3 py-6 text-xs text-charcoal-foreground/60 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Vishnu Infra. All Rights Reserved.</p>
-          <p>Road & Highway Construction | Pali, Rajasthan</p>
+          <p className="font-medium tracking-wide text-charcoal-foreground/80">
+            Developed by <span className="font-bold text-primary">Urmahi Vishnoi</span>
+          </p>
         </div>
       </div>
     </footer>
