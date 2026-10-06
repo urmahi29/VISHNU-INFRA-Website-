@@ -427,10 +427,19 @@ export const gallery: {
   },
 ];
 
-export const leadership = [
-  { name: "Laduram Ji Vishnoi", role: "Director / Owner" },
-  { name: "Shyam Ji Vishnoi", role: "Director / Owner" },
-] as const;
+export const leadership = {
+  owner: {
+    name: "Laduram Ji Vishnoi",
+    role: "Director / Owner",
+  },
+  teamTitle: "Managers & Site Handlers",
+  team: [
+    { no: "01", name: "Shyam Vishnoi", role: "Manager & Site Handler" },
+    { no: "02", name: "Kapil Vishnoi", role: "Manager & Site Handler" },
+    { no: "03", name: "Pradeep Vishnoi", role: "Manager & Site Handler" },
+    { no: "04", name: "Kalu Vishnoi", role: "Manager & Site Handler" },
+  ],
+};
 
 export const faqs = [
   {
