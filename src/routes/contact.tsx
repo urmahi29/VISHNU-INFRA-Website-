@@ -5,6 +5,7 @@ import {
   images,
   telHref,
   telAltHref,
+  telThirdHref,
   mailHref,
   whatsappHref,
 } from "@/data/site";
@@ -70,6 +71,9 @@ function Contact() {
                     </a>
                     <a href={telAltHref} className="hover:text-primary">
                       {company.phoneAlt}
+                    </a>
+                    <a href={telThirdHref} className="hover:text-primary">
+                      {company.phoneThird}
                     </a>
                   </p>
                 </div>

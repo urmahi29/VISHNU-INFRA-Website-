@@ -68,6 +68,7 @@ export const company = {
   address: "Pali, Rajasthan – 306401, India",
   phone: "+91 9829933255",
   phoneAlt: "+91 8412900229",
+  phoneThird: "+91 80030 56829",
   whatsapp: "919829933255",
   email: "Vishnuinfra.2900@gmail.com",
   instagram: "https://www.instagram.com/vishnu_infra_29/",
@@ -76,6 +77,7 @@ export const company = {
 
 export const telHref = `tel:${company.phone.replace(/\s/g, "")}`;
 export const telAltHref = `tel:${company.phoneAlt.replace(/\s/g, "")}`;
+export const telThirdHref = `tel:${company.phoneThird.replace(/\s/g, "")}`;
 export const whatsappHref = `https://wa.me/${company.whatsapp}`;
 export const mailHref = `mailto:${company.email}`;
 

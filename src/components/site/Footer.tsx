@@ -5,6 +5,7 @@ import {
   navLinks,
   telHref,
   telAltHref,
+  telThirdHref,
   mailHref,
   whatsappHref,
 } from "@/data/site";
@@ -102,6 +103,9 @@ export function Footer() {
                 </a>
                 <a href={telAltHref} className="hover:text-primary">
                   {company.phoneAlt}
+                </a>
+                <a href={telThirdHref} className="hover:text-primary">
+                  {company.phoneThird}
                 </a>
               </span>
             </li>
