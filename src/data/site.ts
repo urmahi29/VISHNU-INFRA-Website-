@@ -427,7 +427,7 @@ export const gallery: {
   },
   {
     src: galleryInfra2,
-    alt: "Kobelco SK380XD excavator carrying out infrastructure earthwork trenching",
+    alt: "Concrete C.C. road construction laying work at sunset with transit mixer truck and site crew",
     category: "Infrastructure Work",
     placeholder: false,
   },
