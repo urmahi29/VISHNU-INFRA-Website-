@@ -385,7 +385,7 @@ export const gallery: {
   },
   {
     src: galleryRoad4,
-    alt: "Kobelco SK380XD excavator digging earthwork trench alongside BharatBenz tipper",
+    alt: "Vögele paver machine laying fresh asphalt road on highway site with site crew",
     category: "Road Construction",
     placeholder: false,
   },
