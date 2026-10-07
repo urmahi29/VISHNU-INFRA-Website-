@@ -68,7 +68,7 @@ export const company = {
   address: "Pali, Rajasthan – 306401, India",
   phone: "+91 9829933255",
   phoneAlt: "+91 8412900229",
-  phoneThird: "+91 80030 56829",
+  phoneThird: "+91 90796 97415",
   whatsapp: "919829933255",
   email: "Vishnuinfra.2900@gmail.com",
   instagram: "https://www.instagram.com/vishnu_infra_29/",
